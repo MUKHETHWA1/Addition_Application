@@ -17,12 +17,12 @@ public class AdditionJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //declaring datatype and obtain user input from JOptionPane input dialog
+        //declaring data type and obtain user input from JOptionPane input dialog
         String firstNumber;
         String secondNumber;
         
-        firstNumber = JOptionPane.showInputDialog("Enter first number"   );
-        secondNumber = JOptionPane.showInputDialog("Enter second number"   );
+        firstNumber = JOptionPane.showInputDialog("Enter first number: "   );
+        secondNumber = JOptionPane.showInputDialog("Enter second number: "   );
         
         //convert String inputs to int values for use
         int number1;
